@@ -6,6 +6,9 @@
  */
 'use strict'
 exports[`test/lib/dist-tag.js TAP add missing args > should exit usage error message 1`] = `
+ dist-tag
+
+Usage:
 npm dist-tag add <pkg>@<version> [<tag>]
 npm dist-tag rm <pkg> <tag>
 npm dist-tag ls [<pkg>]
@@ -14,6 +17,9 @@ alias: dist-tags
 `
 
 exports[`test/lib/dist-tag.js TAP add missing pkg name > should exit usage error message 1`] = `
+ dist-tag
+
+Usage:
 npm dist-tag add <pkg>@<version> [<tag>]
 npm dist-tag rm <pkg> <tag>
 npm dist-tag ls [<pkg>]
@@ -31,6 +37,9 @@ dist-tag add 1.0.0 to @scoped/another@7.7.7
 `
 
 exports[`test/lib/dist-tag.js TAP borked cmd usage > should show usage error 1`] = `
+ dist-tag
+
+Usage:
 npm dist-tag add <pkg>@<version> [<tag>]
 npm dist-tag rm <pkg> <tag>
 npm dist-tag ls [<pkg>]
@@ -45,6 +54,9 @@ latest: 1.0.0
 `
 
 exports[`test/lib/dist-tag.js TAP ls on missing name in current package > should throw usage error message 1`] = `
+ dist-tag
+
+Usage:
 npm dist-tag add <pkg>@<version> [<tag>]
 npm dist-tag rm <pkg> <tag>
 npm dist-tag ls [<pkg>]
@@ -89,6 +101,9 @@ exports[`test/lib/dist-tag.js TAP remove existing tag > should return success ms
 `
 
 exports[`test/lib/dist-tag.js TAP remove missing pkg name > should exit usage error message 1`] = `
+ dist-tag
+
+Usage:
 npm dist-tag add <pkg>@<version> [<tag>]
 npm dist-tag rm <pkg> <tag>
 npm dist-tag ls [<pkg>]
